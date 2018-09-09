@@ -1,0 +1,11 @@
+###
+# Development
+###
+node_modules
+.env
+*.log
+
+###
+# OSX
+###
+.DS_Store
