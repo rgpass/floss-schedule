@@ -2,9 +2,16 @@
 
 ## About
 
-This is an IoT project that [solves a simple problem](https://gp-floss-schedule.herokuapp.com/): I do not have a way to track my flossing date, time, and duration.
+This is an IoT project that [solves a simple problem](https://gp-floss-timer.herokuapp.com/): I do not have a way to track my flossing date, time, and duration.
 
 This is my first IoT project. I wanted to have a simple project which was just complex enough to allow for implementing various technologies. The list of used technologies can be found at the end of this document.
+
+## Major Components
+
+- [Particle Photon](https://www.particle.io/products/hardware/photon-wifi/)
+- Particle Build for the [firmware code](firmware.ino)
+- [Production app](https://gp-floss-timer.herokuapp.com/)
+- [Physical stand](https://imgur.com/TMCC7bu)
 
 ## Starting the App
 
@@ -61,7 +68,7 @@ This is my first IoT project. I wanted to have a simple project which was just c
 
 ## TODOs
 
-- MVP functionality
+(none)
 
 ## Bonus TODOs
 
