@@ -5,5 +5,15 @@
 </head>
 <body>
   <h1>Gerry's Floss Schedule</h1>
+  <ul>
+    <% entries.forEach(function(entry) { %>
+      <% var createdAt = new Date(entry.createdAt) %>
+      <% var date = createdAt.toLocaleDateString() %>
+      <% var time = createdAt.toLocaleTimeString() %>
+      <% var duration = entry.duration / 1000 %>
+
+      <li>On <%= date %> at <%= time %>, Gerry flossed his teeth for <%= duration %> seconds</li>
+    <% }) %>
+  </ul>
 </body>
 </html>
